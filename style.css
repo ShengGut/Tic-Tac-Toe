@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.header, .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 400px; 
+    height: 400px;
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3em;
+    border: 1px solid mintcream; 
+}
